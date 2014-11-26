@@ -23,11 +23,14 @@ module.exports = (grunt) ->
           "site.css": [ "css/main.less" ]
       release:
         options:
+          paths: ["bower_components/bootstrap/less"]
           compress: true
+        files:
+          "site.css": [ "css/main.less" ]
 
     coffeelint:
       app: ["{,*/}*.coffee"]
 
 
   grunt.registerTask "run", ["watch"]
-  grunt.registerTask "default", ["run"]
+  grunt.registerTask "default", ["less:release"]

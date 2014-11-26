@@ -6,13 +6,13 @@ title: 'programátor a pirát!'
 <head>
   <title>Václav Klecanda {% if page.url != '/index.html' %}| {{page.title}}{% else %}Programátor, admin{% endif %}</title>
   <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
 </head>
 <body>
-  <div class='container'>
+  <div class='container-fluid'>
     <div class='col12 clearfix'>
       <div class='header col6 margin3 pad4h'>
         <div class='clearfix col12'>
@@ -20,13 +20,14 @@ title: 'programátor a pirát!'
             <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
             <a class='{% if page.url == "cv/" %}active{% endif %}' href='{{site.baseurl}}/cv'>CV</a>
             <a class='{% if page.url == "eduit/" %}active{% endif %}' href='{{site.baseurl}}/eduit'>EduIT</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
           </div>
           <h1 class='title'><a href='{{site.baseurl}}/'>Václav Klecanda {{page.title}}</a></h1>
         </div>
       </div>
     </div>
     {{content}}
+
+    {% include footer.html %}
   </div>
   <script src='{{site.baseurl}}/site.js'></script>
 </body>

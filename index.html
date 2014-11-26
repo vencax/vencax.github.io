@@ -5,9 +5,9 @@ section: blog
 
 <div class="row">
 
-  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <h1>Ahoj, jsem Václav Klecanda a jsem programátor na volné noze</h1>
 
-    <h1>Ahoj, jsem Václav Klecanda a jsem programátor na volné noze</h1>
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
     {% include aboutme.html %}
 
@@ -29,12 +29,13 @@ section: blog
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
       {% if date != ndate %}
-        <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
+    <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
       {% endif %}
-      <a class='item' href='{{site.baseurl}}{{item.url}}'>
-        {{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span>
-        <p>{{ item.excerpt }}</p>
-      </a>
+    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
+    <span class='date'>&#126; {{item.date | date:"%b %d"}}</span>
+    <p>
+      {{ item.excerpt }}
+    </p>      
     {% endfor %}
   </div>
 

@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 published: true
-splash: "http://placehold.it/1600x500"
+splash: "https://www.mojedatovaschranka.cz/as2/static/images/layout/header-bg.png"
 title: Datové schránky jinak
 tags:
   - Názory
@@ -25,17 +25,21 @@ Výsledek je github repositář [PyDatoveSchanky](https://github.com/vencax/PyDa
 Je potřeba mít python a [pip](https://pypi.python.org/pypi/pip) (nástroj pro správu python balíčků, na ubuntu je to: __sudo aptitude install python-pip__).
 Pak už jen stačí nainstalovat prerekvizity a nakonec vlastní "binarky":
 
-> sudo pip install git+git://git.nic.cz/sudsds/
-> sudo pip install git+git://github.com/vencax/dslib.git
-> sudo pip install git+git://github.com/vencax/PyDatoveSchrankyBinarky.git
+```bash
+sudo pip install git+git://git.nic.cz/sudsds/
+sudo pip install git+git://github.com/vencax/dslib.git
+sudo pip install git+git://github.com/vencax/PyDatoveSchrankyBinarky.git
+```
 
 ## použití
 Pakliže si do uděláte alias:
 
-> alias poslidatovkou="python /usr/local/bin/sendmessage.py --username fdsjkfs --pwd mojetajneheslo"
+```bash
+alias poslidatovkou="python /usr/local/bin/sendmessage.py --username fdsjkfs --pwd mojetajneheslo"
+```
 
 pak poslání zprávy může vypadat takto:
-
-> poslidatovkou -a ~/priznani.pdf adresaDSUradu "priznani2012"
-
-To už jde, nemyslíte?
+```bash
+poslidatovkou -a ~/priznani.pdf adresaDSUradu "priznani2012"
+```
+To už jde, ne?

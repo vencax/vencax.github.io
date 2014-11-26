@@ -10,23 +10,31 @@ section: blog
     {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
   {% endif %}
 
-  <div class='col12 splash'>
+<div class="row">
+  <div class="splash col-xs-12 col-sm-12 col-md-8 col-lg-8">
+
     <img src='{{url}}' alt='splash image' class="img-responsive" />
-  </div>
-{% endif %}
 
-<div class='listing col6 pad4h margin3'>
-  <div class='heading'>
-    <h1>{{page.title}}</h1>
-
-    <span class='date'>{{page.date | date:"%b %d"}}</span>
-  </div>
-
-  <div class='prose'>
-    {{content}}
   </div>
 </div>
+{% endif %}
 
-{% include related.html %}
+<div class="row">
+
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+
+    <h1>{{page.title}}</h1>
+    <span class='date'>{{page.date | date:"%b %d"}}</span>
+
+    {{content}}
+
+
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    {% include related.html %}
+  </div>
+
+</div>
 
 {% include rss-link.html %}

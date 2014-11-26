@@ -2,8 +2,19 @@
 layout: default
 ---
 
-<h2>{{page.title}}</h2>
+<div class="row">
 
-<div class='prose'>
-  {{content}}
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    <h2>{{page.title}}</h2>
+
+    <div class='prose'>
+      {{content}}
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    {% include aboutme.html %}
+    {% include related.html %}
+  </div>
+
 </div>

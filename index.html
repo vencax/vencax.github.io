@@ -5,9 +5,13 @@ section: blog
 
 <div class="row">
 
-  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+    <h2>ahoj, jsem Vašek a jsem programátor na volné noze</h2>
 
     {% include aboutme.html %}
+
+    <h3>github activity</h3>
 
     <h4>java (eeeentrprajz eeeedition)</h4>
     <p>
@@ -18,11 +22,9 @@ section: blog
 
   </div>
 
-  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
-    <h3>pár článků | few articles</h3>
-
-    {% for item in site.categories.blog limit:5 %}
+    {% for item in site.categories.blog limit:100 %}
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
@@ -34,10 +36,6 @@ section: blog
         <p>{{ item.excerpt }}</p>
       </a>
     {% endfor %}
-  </div>
-
-  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-    <h3>github activity</h3>
   </div>
 
 </div>

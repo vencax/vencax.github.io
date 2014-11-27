@@ -35,11 +35,11 @@ sudo pip install git+git://github.com/vencax/PyDatoveSchrankyBinarky.git
 Pakliže si do uděláte alias:
 
 ```bash
-alias poslidatovkou="python /usr/local/bin/sendmessage.py --username fdsjkfs --pwd mojetajneheslo"
+alias poslidatovkou="sendmessage.py --username le_me --pwd secret"
 ```
 
 pak poslání zprávy může vypadat takto:
 ```bash
-poslidatovkou -a ~/priznani.pdf adresaDSUradu "priznani2012"
+sendmessage.py -a ~/priznani.pdf adresaDSUradu "priznani2012"
 ```
 To už jde, ne?

@@ -11,11 +11,14 @@ tags:
 ---
 
 Vxk-sql-auth je sada software, která umožňuje uchovávat uživatele v SQL databázi.
-Správa uživatelů se děje přes jednoduchou webovou aplikaci, které díky tomu, že je webová, je přístupná z jakéhokoli počítače.
-Díky tomu, že uživatelé jsou v databázi, která je opět přístupná celé síti, jsou uživatelé přístupni v celé této síti.
-Díky mechanismům autentikace pomocí databáze (na linuxu libnss-mysql a na windows pgina) se tak můžeme přihlašovat v jakémkoli počítači v sití ať už na windows, nebo linuxu.
-Tento systém tak efektivně nahrazuje obludné řešení podobného problému od Micro$oftu zvaného Active directory.
-Zbavuje tak instutuci, která jej nasadí, nutnosti co chvíly kupovat nový M$ windows server.
+Správa uživatelů se děje přes jednoduchou webovou aplikaci.
+V tomto článku bude něco o základních administračních úkonech.
+
+Díky autentikaci pomocí databáze (na linuxu libnss-mysql a na windows pgina)
+se můžeme přihlašovat v jakémkoli počítači v sití ať už na windows, nebo linuxu.
+Tento systém tak nahrazuje obludné řešení od Micro$oftu zvané Active directory.
+Zbavuje instutuci, která jej nasadí, nutnosti co chvíly kupovat nový M$ windows server.
+Aplikace je přístupná z jakéhokoli počítače bez nutnosti instalovat další software.
 
 ## použití
 
@@ -24,7 +27,9 @@ Jediný rozdíl pro uživatele je nutnost měnit heslo přes webový formulář.
 Je to z toho důvodu, že již nelze použít standardní způsob změny hesla, protože M$ k němu nedáva přístup.
 URL formuláře pro změnu hesla je:
 
-> www.skola.local/nss/
+```
+www.skola.local/nss/
+```
 
 ### PŘIHLÁŠENÍ
 Na linuxu se nic nemění. Prostě jen používáte uživatelské jméno a heslo, které je uloženo jinde než obvykle, což běžného uživatele nezajímá.
@@ -37,7 +42,9 @@ Není žádná doména. Je zde i indikátor, zda PGINA je spojena se serverem a 
 ### ADMINISTRACE
 Vlastní administrační aplikace je založena na systému Django a používá jeho administrační rozhraní. URL administrace je:
 
-> www.skola.loca/admin/
+```
+www.skola.loca/admin/
+```
 
 po přhlášení máme k dispozici základní rozcestník a v něm několik položek.
 Po rozkliknutí každé z nich se objeví administrace té konkrétní položky.
@@ -68,7 +75,9 @@ ten spustí vlastní logovací skript na serveru __\\lserver\netlogon\doLogon.ba
 Toto je proto, aby když chceme ve skriptu něco změnit, změníme to jen v 1 souboru a není třba rotovat okolo všech počítačů.
 URL na které je konkrétní skript k dispozici je:
 
-> www.skola.local/samba_admin/<uzivatelske jmeno>/<jmeno systemu>/logon.bat
+```
+www.skola.local/samba_admin/<uzivatelske jmeno>/<jmeno systemu>/logon.bat
+```
 
 <jmeno systemu> je typicky Windows_NT. Toto URL se může hodit při hledání problému.
 Stačí si totiž stáhnout přihlašovací skript a hned vidíme, co windows měl udělat (a ve většině problémových případů neudělal).
@@ -77,4 +86,5 @@ Tento skript se spustí a už dělá právě jen ty akce, které má pro daného
 
 ### KDYŽ NĚCO NEFUNGUJE
 Neni náhodou na přihlašovacím formuláři "Disconnected"?
-Systém je závislý na DNS překladu, takže 1. krok je zkontrolovat zda nám DHCP přiděluje správnou DNS adresu a nebo jestli náhodou nemáme DNS nastaven napevno
+Systém je závislý na DNS překladu, takže 1. krok je zkontrolovat zda nám DHCP přiděluje správnou DNS adresu
+a nebo jestli náhodou nemáme DNS nastaven napevno.

@@ -13,13 +13,13 @@ tags:
 Po nekonečných peripetiích s M$ Windows server mi došla trpělivost a povidám:
 “Ja ti na to kašlu Bille!”
 
-Tak jako asi v hojném počtu škol i my jsme měli klasickou školní síť.
-To znamena windows server na serveru a windows (xp, 7) na klientech.
+Tak jako asi v hojném počtu škol i my jsme měli klasickou školní síť,
+tj. windows server a windows (xp, 7) na klientech.
 Data se sdílela pomocí sdílených složek na serveru,
 které se automaticky připojovali pomocí skriptu (když zrovna zafungoval).
-Později jsme zavedli RoamingProfiles - Cetstovní profily.
+Později jsme zavedli RoamingProfiles - Cetstovní profily a začal konec.
 
-Pro mě jako pro správce to znamenalo řešení neustále se opakujících problímů
+Pro mě jako pro správce to znamenalo řešení neustále se opakujících problémů
 způsobených nesmírně komplikovaných systémem oprávnění, restrikcí,
 skriptů a jiných příkazů aplikovaných pomocí kontejneru GroupPolicy.
 Navíc, po zavedení cestovních profilů někteří učitelé nebyli schopni pochopit,

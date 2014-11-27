@@ -10,7 +10,8 @@ tags:
   - Databáze
 ---
 
-Dnes jsem viděl reportáž z úředního prostředí, ve které byl záběr na obrazovku počítače, kde běžel program, pravděpodobně založený na Visual Fox Pro v prostředí DOS.
+Dnes jsem viděl reportáž z úředního prostředí, ve které byl záběr na obrazovku počítače,
+kde běžel program, pravděpodobně založený na Visual Fox Pro v prostředí DOS.
 Je to ještě vůbec možné v 21.století?
 
 Tento typ software, který frčel někdy uprostřed 90. let 20. století z vlastní praxe znám.

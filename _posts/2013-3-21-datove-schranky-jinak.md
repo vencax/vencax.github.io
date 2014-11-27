@@ -10,8 +10,8 @@ tags:
 ---
 
 Datová schránka, projekt tak zprasený, jak se na státní správu sluší a patří.
-No nic, řek jsem si: __"Schránku si pořídim, ať nemusím na ouřad běhat s vytištěnýma papírama a ať se úředník poměje a taky něčemu přiučí"__.
-Po pár odeslaných zprávách jsem si krom několika sprostých slov pomyslel, že o nějaké uživatelské přívětivosti nelze ani mluvit.
+Po pár odeslaných zprávách jsem si krom několika sprostých slov pomyslel,
+že o uživatelské přívětivosti lze mluvit jen v kondicionálu.
 Ale naštěstí jsem objevil řešení, které navíc umožňuje automatizovat!
 
 Řešení naprogramovala CZNIC a jmenuje se [dslib](https://redmine.labs.nic.cz/projects/dslib).

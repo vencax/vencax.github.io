@@ -3,28 +3,24 @@ layout: default
 section: blog
 ---
 
-{% if page.splash %}
-  {% if page.splash contains 'http' %}
-    {% capture url %}{{page.splash}}{% endcapture %}
-  {% else %}
-    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
-  {% endif %}
-
-<div class="row">
-  <div class="splash col-xs-12 col-sm-12 col-md-8 col-lg-8">
-
-    <img src='{{url}}' alt='splash image' class="img-responsive" />
-
-  </div>
-</div>
-{% endif %}
-
 <div class="row">
 
   <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
     <h1>{{page.title}}</h1>
+
     <span class='date'>{{page.date | date:"%b %d"}}</span>
+
+    {% if page.splash %}
+      {% if page.splash contains 'http' %}
+        {% capture url %}{{page.splash}}{% endcapture %}
+      {% else %}
+        {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
+      {% endif %}
+
+    <img src='{{url}}' alt='splash image' class="img-responsive" />
+
+    {% endif %}
 
     {{content}}
 
@@ -33,8 +29,12 @@ section: blog
 
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     {% include related.html %}
+    <hr class="divider">
+    {% include aboutme.html %}
+
+    You can find me on:
+    {% include me-on-socials.html %}
+
   </div>
 
 </div>
-
-{% include rss-link.html %}

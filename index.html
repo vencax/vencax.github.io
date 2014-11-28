@@ -3,15 +3,51 @@ layout: default
 section: blog
 ---
 
-<h1>Ahoj, jsem Václav Klecanda a jsem programátor na volné noze</h1>
-
 <div class="row">
 
-  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
 
-    {% include aboutme.html %}
+    <h1>Ahoj, jsem Václav Klecanda a jsem programátor na volné noze</h1>
+
+    <img src="/img/me.png" alt="le me, foto" class="pull-right" style="margin: 0 0 20px 20px;">
+
+    Zaměřuji se na vývoj webových aplikací především v <a href="https://www.python.org/">pythonu</a>
+    a nově v <a href="http://nodejs.org/">javascriptu</a> (více v <a href="/cv/">CV</a>).
+
+    Ve volnu <a href="https://github.com/vencax/">programuji</a> nebo vymýšlím vzdušné zámky.
+    Zajímá mne <a href="http://cs.wikipedia.org/wiki/Do_it_yourself">DIY kultura</a>
+    a svobodná tvorba (především <a href="http://cs.wikipedia.org/wiki/Otev%C5%99en%C3%BD_software">opensource</a>).
+
+    Mám zkušenosti s širokou škálou opensource programů
+    a hlavně s operačním systémem <a href="http://www.linux.cz/">linux</a>
+    (různá distra, preference: <a href="http://www.ubuntu.cz/">ubuntu</a>).
+
+    <a href="http://www.pirati.cz/lide/vaclav_klecanda">Jsem pirát</a>,
+    protože mi záleží na svobodě člověka, svobodě sdílet přijaté informace,
+    remixovat je a rozvíjet a obohacovat tak společnost.
+
 
     <h3>github activity</h3>
+    <ul id="ghfeed"></ul>
+    <script type="text/javascript" src="https://www.google.com/jsapi?autoload=%7B%0D%0A++%22modules%22+%3A+%5B%0D%0A++++%7B%0D%0A++++++%22name%22+%3A+%22feeds%22%2C%0D%0A++++++%22version%22+%3A+%221.0%22%2C%0D%0A++++++%22language%22+%3A+%22cs%22%2C%0D%0A%22nocss%22%3A+true%0D%0A++++%7D%0D%0A++%5D%0D%0A%7D"></script>
+
+    <script type="text/javascript">
+
+      // more on http://stackoverflow.com/questions/10943544/how-to-parse-a-rss-feed-using-javascript
+      var feed = new google.feeds.Feed('https://github.com/vencax.atom');
+      feed.load(function (data) {
+          // Parse data depending on the specified response format, default is JSON.
+          for(var i=0; i<data.feed.entries.length; i++) {
+            var e = data.feed.entries[i];
+            var item = $('<li><h5><a href="' + e.link + '">' + e.title + '</a></h5></li>');
+            $('<span>' + e.publishedDate + '</span>').appendTo(item);
+
+            item.appendTo($('#ghfeed'));
+          }
+      });
+
+    </script>
+    <p>More on <a href="https://github.com/vencax">my github</a> ...</p>
 
     <h4>java (eeeentrprajz eeeedition)</h4>
     <p>
@@ -22,7 +58,7 @@ section: blog
 
   </div>
 
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 
     {% for item in site.categories.blog limit:100 %}
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
@@ -40,5 +76,3 @@ section: blog
   </div>
 
 </div>
-
-{% include rss-link.html %}

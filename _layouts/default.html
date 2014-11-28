@@ -4,8 +4,10 @@ title: 'programátor a pirát!'
 <!DOCTYPE html>
 <html lang="cz">
 <head>
-  <title>Václav Klecanda {% if page.url != '/index.html' %}| {{page.title}}{% else %}Programátor, admin{% endif %}</title>
   <meta charset='UTF-8'/>
+  <title>Václav Klecanda {% if page.url != '/index.html' %}| {{page.title}}{% else %}Programátor, admin{% endif %}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if page.tags  %}<meta name="tags" content="{{ page.tags  }}">{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
@@ -26,8 +28,11 @@ title: 'programátor a pirát!'
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
+          <li>
+            <a href='{{site.baseurl}}/'>O mě (About)</a>
+          </li>
           <li class='{% if page.section == "blog" %}active{% endif %}'>
-            <a href='{{site.baseurl}}/'>Blog</a>
+            <a href='{{site.baseurl}}/blog'>Blog</a>
           </li>
           <li class='{% if page.url == "cv/" %}active{% endif %}'>
             <a href='{{site.baseurl}}/cv'>CV</a>

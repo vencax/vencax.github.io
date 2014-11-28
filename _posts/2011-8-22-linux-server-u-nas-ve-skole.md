@@ -8,6 +8,10 @@ tags:
   - informační systémy
   - linux
   - škola
+description:
+  Po problémech se sití založenou na windows technologiích jsme se rozhodli
+  přejít na linux. Vznikla ale otazka, čím nahradit active directory,
+  roaming (cestovní) profily, a sdílené složky. Volba padla na Smaba4. 
 ---
 
 Po nekonečných peripetiích s M$ Windows server mi došla trpělivost a povidám:

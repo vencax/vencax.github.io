@@ -2,7 +2,6 @@
 layout: blog
 category: tips
 published: true
-splash: "http://placehold.it/1600x500"
 title: Lineman on Heroku without buildpack
 tags:
   - heroku

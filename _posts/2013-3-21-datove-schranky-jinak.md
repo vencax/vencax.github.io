@@ -7,6 +7,9 @@ title: Datové schránky jinak
 tags:
   - Názory
   - Historie
+description:
+  Posílání zpráv datovou schránkou je neohrabané a uživatelsky nepřívětivé.
+  Naštěstí má systém i SOAP interface, zkrz který lze datové zprávy posílat.
 ---
 
 Datová schránka, projekt tak zprasený, jak se na státní správu sluší a patří.

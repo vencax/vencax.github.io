@@ -29,4 +29,4 @@ But I did not like structure of code so I have rewritten it as well.
 Now it can be used as [express](http://expressjs.com/) application.
 It has some other features.
 E.g. you can say what filename to store particular file under on server.
-Check it out on [https://github.com/vencax/brewtus].
+Check it out on [github.com/vencax/brewtus](https://github.com/vencax/brewtus).

@@ -12,7 +12,7 @@ Server uses libnssmysql for user SAM, but samba has its own user backend, FUUU!
 
 So only way (if you don't want use LDAP) is to use the build in tools for user management - [smbpasswd](https://www.samba.org/samba/docs/man/manpages-3/smbpasswd.8.html) and [pdbedit](https://www.samba.org/samba/docs/man/manpages/pdbedit.8.html).
 This tools are run from hooks of [eduit-userman](https://github.com/vencax/node-eduit-userman/).
-It is backend part of administration. The frontend is [angular-eduit] (https://github.com/vencax/angular-eduit).
+It is backend part of administration. The frontend is [angular-eduit](https://github.com/vencax/angular-eduit).
 The whole is SPA (Single Page Application), everything runs smoothly and fast.
 I could be satisfied but as a next stage I would like to [dockerify](http://docker.io) all.
 

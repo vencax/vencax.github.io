@@ -27,4 +27,6 @@ Next you have to add port setting into server configuration (config/application.
   }
 ```
 
+NOTE: feb.2016: setting env. var WEB_PORT [solves the problem](https://github.com/linemanjs/lineman/blob/master/tasks/server.coffee).
+
 And finally you have change package.json - move lineman* from devDependencies to dependencies.

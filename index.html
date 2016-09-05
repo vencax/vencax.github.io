@@ -1,34 +1,48 @@
 ---
 layout: default
-section: blog
 ---
+
+<div class="row hero">
+
+  <div class="small-12 medium-8 columns heroinfo">
+
+    <h1>Václav Klecanda</h1>
+    <h2>programátor | freelancer</h2>
+    <hr/>
+
+    <p>
+      Zaměřuji se na vývoj webových aplikací především v <a href="http://nodejs.org/">javascriptu</a>
+      a <a href="https://www.python.org/">pythonu</a> (více v <a href="/cv/">CV</a>).
+    </p>
+    <p>
+      Mám zkušenosti s širokou škálou opensource programů a knihoven
+      a hlavně s operačním systémem <a href="http://www.linux.cz/">linux</a>
+      (různá distra, preference: <a href="http://www.ubuntu.cz/">ubuntu</a>).
+    </p>
+    <p>
+      <a href="http://www.pirati.cz/lide/vaclav_klecanda">Jsem pirát</a>,
+      protože mi záleží na svobodě člověka, svobodě sdílet přijaté informace,
+      remixovat je, rozvíjet a obohacovat tak společnost.
+    </p>
+    <p>
+      Ve volnu <a href="https://github.com/vencax/">programuji</a> nebo jezdím na motorce.
+      Zajímá mne <a href="http://cs.wikipedia.org/wiki/Do_it_yourself">DIY kultura</a>
+      a svobodná tvorba (především <a href="http://cs.wikipedia.org/wiki/Otev%C5%99en%C3%BD_software">opensource</a>).
+    </p>
+    <p>
+      {% include me-on-socials.html %}
+    </p>
+  </div>
+
+  <div class="small-12 medium-4 columns">
+    <img src="/media/vaclav_klecanda.jpg" />
+  </div>
+
+</div>
 
 <div class="row">
 
-  <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-
-    <h1>Ahoj, jsem Václav Klecanda a jsem programátor na volné noze</h1>
-
-    <img src="/img/me.png" alt="le me, foto" class="pull-right" style="margin: 0 0 20px 20px;">
-
-    Zaměřuji se na vývoj webových aplikací především v <a href="https://www.python.org/">pythonu</a>
-    a nově v <a href="http://nodejs.org/">javascriptu</a> (více v <a href="/cv/">CV</a>).
-
-    Ve volnu <a href="https://github.com/vencax/">programuji</a> nebo vymýšlím vzdušné zámky.
-    Zajímá mne <a href="http://cs.wikipedia.org/wiki/Do_it_yourself">DIY kultura</a>
-    a svobodná tvorba (především <a href="http://cs.wikipedia.org/wiki/Otev%C5%99en%C3%BD_software">opensource</a>).
-
-    Mám zkušenosti s širokou škálou opensource programů
-    a hlavně s operačním systémem <a href="http://www.linux.cz/">linux</a>
-    (různá distra, preference: <a href="http://www.ubuntu.cz/">ubuntu</a>).
-
-    <a href="http://www.pirati.cz/lide/vaclav_klecanda">Jsem pirát</a>,
-    protože mi záleží na svobodě člověka, svobodě sdílet přijaté informace,
-    remixovat je a rozvíjet a obohacovat tak společnost.
-
-    You can find me on:
-    {% include me-on-socials.html %}
-
+  <div class="small-12 large-6 columns">
     <h3>github activity</h3>
     <ul id="ghfeed"></ul>
     <script type="text/javascript" src="https://www.google.com/jsapi?autoload=%7B%0D%0A++%22modules%22+%3A+%5B%0D%0A++++%7B%0D%0A++++++%22name%22+%3A+%22feeds%22%2C%0D%0A++++++%22version%22+%3A+%221.0%22%2C%0D%0A++++++%22language%22+%3A+%22cs%22%2C%0D%0A%22nocss%22%3A+true%0D%0A++++%7D%0D%0A++%5D%0D%0A%7D"></script>
@@ -51,18 +65,11 @@ section: blog
     </script>
     <p>More on <a href="https://github.com/vencax">my github</a> ...</p>
 
-    <h4>java (eeeentrprajz eeeedition)</h4>
-    <p>
-      Když bude nejhůř a přesvědčíte mne, že prostě nic jiného než javu nechcete,
-      mohu nabídnout své zkušenosti i jako java programátor
-      (více v <a href="{{site.baseurl}}/cv">CV</a>).
-    </p>
-
   </div>
 
-  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+  <div class="small-12 large-6 columns">
 
-    {% for item in site.categories.blog limit:100 %}
+    {% for item in site.categories.blog limit:2 %}
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 

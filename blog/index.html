@@ -1,0 +1,48 @@
+---
+title: Články
+layout: page
+description: Moje občasné zamyšlení
+keywords: články
+---
+
+<section>
+  <div class="row small-up-1 medium-up-2">
+  {% for post in paginator.posts %}
+    <div class="column">
+    {% include shared/articlesumary.html %}
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+<!-- Stránkování / pagination -->
+<div class="row">
+  <div class="large-12 text-center">
+    <ul class="pagination" role="navigation" aria-label="Pagination">
+      <li>
+        <a href="{{ paginator.previous_page_path }}" aria-label="Previous page">
+        Předchozí <span class="show-for-sr">page</span>
+      </a>
+      </li>
+      {% for page in (1..paginator.total_pages) %}
+      <li>
+        {% if forloop.index == 1 %}
+        <a href="{{ site.baseurl }}/" aria-label="Page {{ forloop.index }}" {% if page == paginator.page %} class="current" {% endif %}>
+      {% else %}
+        <a href="{{site.baseurl}}/blog/{{forloop.index}}/" aria-label="Page {{ forloop.index }}"{% if page == paginator.page %} class="current"{% endif %}>
+      {% endif %}
+        {{ forloop.index }}
+      </a>
+      </li>
+      {% endfor %}
+      <li>
+        <a href="{{ paginator.next_page_path}}" aria-label="Next page">
+        Další <span class="show-for-sr">page</span>
+      </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- / Stránkování / pagination -->
+
+<br />

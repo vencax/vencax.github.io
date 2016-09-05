@@ -3,6 +3,9 @@ permalink: pretty
 markdown: kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
+paginate_path: "/blog/page:num/"
+paginate: 4
 prose:
   rooturl: '_posts'
   siteurl: 'http://www.vxk.cz/'

@@ -2,11 +2,10 @@
 published: true
 title: Curriculum vitae
 layout: page
-permalink: cv/
-description: Structured CV shows that I have experience with java, python, javascript and more. Feel free to ask me for details.
+description: Structured CV shows that I have experience with java, python, javascript and more.
 ---
 
-<img src="/img/me.png" alt="le me, foto" class="pull-right" style="margin: 0 0 20px 20px;">
+<img src="/media/vaclav_klecanda.jpg" alt="le me, foto" class="float-right" style="margin: 0 0 20px 20px; width: 40%;">
 
 ## personal information
 
@@ -29,13 +28,13 @@ description: Structured CV shows that I have experience with java, python, javas
 - snowboarding
 - biking
 - inline skating
-- following rabbit hole ..
+- politics & society
 
 ## knowledge and skills
 
 - Windows, Linux excellent: usage, administration, scripting
-- Python excellent, 5yrs: [django](https://www.djangoproject.com/), [flask](http://flask.pocoo.org/), pyjamas, networking libs, ...
-- JS ecosystem, very good, 2yr:
+- Python excellent: [django](https://www.djangoproject.com/), [flask](http://flask.pocoo.org/), pyjamas, networking libs, ...
+- JS ecosystem, excellent:
   [cofeescript](http://coffeescript.org/),
   [express](http://expressjs.com/),
   [angular](http://angularjs.org/),
@@ -49,7 +48,7 @@ description: Structured CV shows that I have experience with java, python, javas
 - C/C++ very good, 2yrs: [STL](http://www.cplusplus.com/reference/stl/), [Boost](http://www.boost.org/), Linux API
 - C# intermediate, 1yr: XNA game feamework
 - CSS, (X)HTML(5) excellent, 7yrs
-- Database excellent, 5yrs: MySQL, PostgreSQL/PostGIS, Oracle PL/SQL, sqlite, LDAP
+- Database excellent: MySQL, PostgreSQL/PostGIS, Oracle PL/SQL, sqlite, LDAP
 - IDE: [atom.io](https://atom.io/), Eclipse, Netbeans, cloud9
 - SCM: SVN, GIT
 - Other: 3DSMax, [blender](http://www.blender.org/), [GIMP](http://www.gimp.org/), [inkscape](http://inkscape.org/), ...
@@ -89,4 +88,9 @@ description: Structured CV shows that I have experience with java, python, javas
 - __10/2006 – 02/2007__: School project – programmer. Development of process support into experimental operating system.
 - __10/2000 – 04/2007__: PC Assembling, support and diagnostics. Repairs.
 
-In meantime, I play with new techs. The results can bee seen on my [github](https://github.com/vencax)
+## contacts
+- [https://github.com/vencax](https://github.com/vencax)
+- [http://www.linkedin.com/pub/vaclav-klecanda/9/686/979](http://www.linkedin.com/pub/vaclav-klecanda/9/686/979)
+- [https://www.facebook.com/vaclav.klecanda](https://www.facebook.com/vaclav.klecanda)
+
+Feel free to ask me for details.

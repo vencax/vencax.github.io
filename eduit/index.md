@@ -2,7 +2,6 @@
 published: true
 title: Edu IT - správa školní infrastruktury
 layout: page
-permalink: eduit/
 ---
 
 Celou svojí karieru působím ve školním prostředí jako administrátor sítě a serverů.

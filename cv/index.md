@@ -32,7 +32,7 @@ description: Structured CV shows that I have experience with java, python, javas
 
 ## knowledge and skills
 
-- Windows, Linux excellent: usage, administration, scripting
+- Windows(I would rather forget it :), Linux excellent: usage, administration, scripting
 - Python excellent: [django](https://www.djangoproject.com/), [flask](http://flask.pocoo.org/), pyjamas, networking libs, ...
 - JS ecosystem, excellent:
   [cofeescript](http://coffeescript.org/),

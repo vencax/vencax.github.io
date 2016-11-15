@@ -2,7 +2,7 @@
 published: true
 title: Curriculum vitae
 layout: page
-description: Structured CV shows that I have experience with java, python, javascript and more.
+description: Structured CV shows that I have experience as a JS fullstack developer, but also with java, python and more.
 ---
 
 <img src="/media/vaclav_klecanda.jpg" alt="le me, foto" class="float-right" style="margin: 0 0 20px 20px; width: 40%;">
@@ -32,17 +32,17 @@ description: Structured CV shows that I have experience with java, python, javas
 
 ## knowledge and skills
 
+- JS (full stack), excellent:
+  [express](http://expressjs.com/),
+  [react](https://facebook.github.io/react/),
+  [mobX](https://mobxjs.github.io/mobx/),
+  [webpack](https://webpack.github.io/),
+  [cofeescript](http://coffeescript.org/),  
+  [angular](http://angularjs.org/),  
+  [mithril](http://mithril.js.org/),
+  sass, less, leaflet, ...
 - Windows(I would rather forget it :), Linux excellent: usage, administration, scripting
 - Python excellent: [django](https://www.djangoproject.com/), [flask](http://flask.pocoo.org/), pyjamas, networking libs, ...
-- JS ecosystem, excellent:
-  [cofeescript](http://coffeescript.org/),
-  [express](http://expressjs.com/),
-  [angular](http://angularjs.org/),
-  [react](https://facebook.github.io/react/),
-  [mithril](http://mithril.js.org/),
-  [webpack](https://webpack.github.io/),
-  [grunt](http://gruntjs.com/),
-  sass, less, leaflet, ...
 - Java very good, 4yrs: JSE, JEE: JSF (faceletes, visual JSF), servlets, jdbc, JPA, EJB
 - Servers: Apache, [Nginx](http://nginx.com/), [uWSGI](https://github.com/unbit/uwsgi), Tomcat, GlassFish, Jboss
 - C/C++ very good, 2yrs: [STL](http://www.cplusplus.com/reference/stl/), [Boost](http://www.boost.org/), Linux API
@@ -52,12 +52,12 @@ description: Structured CV shows that I have experience with java, python, javas
 - IDE: [atom.io](https://atom.io/), Eclipse, Netbeans, cloud9
 - SCM: SVN, GIT
 - Other: 3DSMax, [blender](http://www.blender.org/), [GIMP](http://www.gimp.org/), [inkscape](http://inkscape.org/), ...
-- App-hostings: [heroku](https://www.heroku.com/)
+- App-hostings: [docker](https://www.docker.com/) based, [heroku](https://www.heroku.com/)
 
 ## working experience
 
 - __10/2014 - now__
-  CDO@blueskymedia; node.js & angular based web applications architecture&development
+  CDO@blueskymedia; node.js, react & mobx based web applications architecture & development
 - __11/2015 - 2/2016__
   [supersimpleshop](http://www.supersimpleshop.eu/); own project of super simple and super fast ecomerce solution. Beat it! :)
 - __1/2015 - 5/2015__
@@ -90,7 +90,7 @@ description: Structured CV shows that I have experience with java, python, javas
 
 ## contacts
 - [https://github.com/vencax](https://github.com/vencax)
-- [http://www.linkedin.com/pub/vaclav-klecanda/9/686/979](http://www.linkedin.com/pub/vaclav-klecanda/9/686/979)
+- [http://www.linkedin.com/pub/vaclav-klecanda/9/686/979](http://www.linkedin.com/pub/vaclav-klecanda/9/686/979) /outdated/
 - [https://www.facebook.com/vaclav.klecanda](https://www.facebook.com/vaclav.klecanda)
 
 Feel free to ask me for details.

@@ -8,13 +8,20 @@
   padding: 2em;
 }
 
-.heroes {
-  background-image: url("/media/vaclav_klecanda.jpg");
+.callout {
+  background-image: url("/img/heroback.jpg");
+  background-color: black;
   background-position: center top;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 2em 0;
+  border: none;
   margin-bottom: 2em;
+}
+
+.faded {
+  background-color:rgba(0, 0, 0, 0.8);
+  padding: 2em;
+  color: white;
 }
 
 @media (min-width: 480px) {

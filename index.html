@@ -40,21 +40,24 @@ layout: default
   <div class="small-12 large-6 columns">
     <h3>github activity</h3>
     <ul id="ghfeed"></ul>
-    <script type="text/javascript" src="https://www.google.com/jsapi?autoload=%7B%0D%0A++%22modules%22+%3A+%5B%0D%0A++++%7B%0D%0A++++++%22name%22+%3A+%22feeds%22%2C%0D%0A++++++%22version%22+%3A+%221.0%22%2C%0D%0A++++++%22language%22+%3A+%22cs%22%2C%0D%0A%22nocss%22%3A+true%0D%0A++++%7D%0D%0A++%5D%0D%0A%7D"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/bobby-brennan/rss-parser/715348cf/dist/rss-parser.min.js"></script>
 
     <script type="text/javascript">
-
-      // more on http://stackoverflow.com/questions/10943544/how-to-parse-a-rss-feed-using-javascript
-      var feed = new google.feeds.Feed('https://github.com/vencax.atom');
-      feed.load(function (data) {
+      $.ajax({url: 'https://github.com/vencax.atom'}, function(data) {
+        RSSParser.parseString(data, function (err, parsed) {
+          if (err) {
+            $('<span>' + err + '</span>').appendTo($('#ghfeed'))
+            return
+          }
           // Parse data depending on the specified response format, default is JSON.
-          for(var i=0; i<data.feed.entries.length; i++) {
+          for(var i=0; i<parsed.feed.entries.length; i++) {
             var e = data.feed.entries[i];
             var item = $('<li><h5><a href="' + e.link + '">' + e.title + '</a></h5></li>');
             $('<span>' + e.publishedDate + '</span>').appendTo(item);
 
             item.appendTo($('#ghfeed'));
           }
+        })
       });
 
     </script>

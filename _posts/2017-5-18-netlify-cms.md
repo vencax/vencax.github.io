@@ -18,7 +18,7 @@ But I didn't need serving via other service.
 I just needed to let users edit the webs with knowing nothing about GIT.
 That is why I wrote [netlify-cms-github-oauth-provider](https://github.com/vencax/netlify-cms-github-oauth-provider).
 
-So I you want to have the same you need:
+So if you want to have the same, you need:
 
 - setup new OAuth application in you github account or organisation (see section [Using an Authentication Provider](https://www.netlify.com/docs/authentication-providers/)).
   With this you will get CLIENT_ID and CLIENT_SECRET.
@@ -35,9 +35,9 @@ So I you want to have the same you need:
   # this is maybe redundant (but not a big deal to set it)
   heroku config:set REDIRECT_URL=https://myownghuboauthprovider.herokuapp.com/callback
   ```
-- set Authrorisation callback URL [in github settings](https://github.com/settings/developers) to URL where your instance listens.
+- set Authorisation callback URL [in github settings](https://github.com/settings/developers) to URL where your instance listens.
   In this case heroku instance https://myownghuboauthprovider.herokuapp.com/callback.
 - set base_url in backend section of your Netlify CMS config.yml (see. [example](https://github.com/pirati-web/admin/blob/master/config.yml))
 
-And thats it. Easy. Now the [czech pirate party](https://www.pirati.cz/) members can edit the websites without knowing anything abount GIT ;)
+And thats it. Easy. Now the [czech pirate party](https://www.pirati.cz/) members can edit the websites without any knowledge about GIT ;)
 Thanks Netlify guys for amaizing CMS!

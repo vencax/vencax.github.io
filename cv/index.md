@@ -40,13 +40,13 @@ description: Structured CV shows that I have experience as a JS fullstack develo
   [cofeescript](http://coffeescript.org/),  
   [angular](http://angularjs.org/),  
   [mithril](http://mithril.js.org/),
-  sass, less, leaflet, ...
+  sass, less, leaflet, ES6, using [standard.js](https://standardjs.com/) ...
 - Windows(I would rather forget it :), Linux excellent: usage, administration, scripting
-- Python excellent: [django](https://www.djangoproject.com/), [flask](http://flask.pocoo.org/), pyjamas, networking libs, ...
-- Java very good, 4yrs: JSE, JEE: JSF (faceletes, visual JSF), servlets, jdbc, JPA, EJB
+- Python excellent: [django](https://www.djangoproject.com/), [flask](http://flask.pocoo.org/), networking libs, ...
+- Java, 4yrs: JSE, JEE: JSF (faceletes, visual JSF), servlets, jdbc, JPA, EJB
 - Servers: Apache, [Nginx](http://nginx.com/), [uWSGI](https://github.com/unbit/uwsgi), Tomcat, GlassFish, Jboss
-- C/C++ very good, 2yrs: [STL](http://www.cplusplus.com/reference/stl/), [Boost](http://www.boost.org/), Linux API
-- C# intermediate, 1yr: XNA game feamework
+- C/C++, 2yrs: [STL](http://www.cplusplus.com/reference/stl/), [Boost](http://www.boost.org/), Linux API
+- C#, 1yr: XNA game feamework
 - CSS, (X)HTML(5) excellent, 7yrs
 - Database excellent: MySQL, PostgreSQL/PostGIS, Oracle PL/SQL, sqlite, LDAP
 - IDE: [atom.io](https://atom.io/), Eclipse, Netbeans, cloud9

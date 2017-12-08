@@ -58,10 +58,10 @@ description: Structured CV shows that I have experience as a JS fullstack develo
 
 - __10/2014 - now__
   CDO@blueskymedia; node.js, react & mobx based web applications architecture & development
+- __1/2015 - now__
+  owner@Geo2K; development of GIS portal for historical data and ownership development visualisation (LEAFLET, node.js)
 - __11/2015 - 2/2016__
   [supersimpleshop](http://www.supersimpleshop.eu/); own project of super simple and super fast ecomerce solution. Beat it! :)
-- __1/2015 - 5/2015__
-  G2K; GIS portal for historical data and ownership development visualisation
 - __11/2012 - 10/2013__
   Skype; python based automated testing development
 - __01/2012 - 08/2012__:

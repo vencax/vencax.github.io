@@ -32,13 +32,14 @@ description: Structured CV shows that I have experience as a JS fullstack develo
 
 ## current skill/tool set
 
-### JS (full stack) express.js, Vue@3; [mocha.js](https://mochajs.org/), [nixos](https://nixos.org/), micropython, GIT, VSCodium
+#### JS (full stack) express.js, Vue@3; [mocha.js](https://mochajs.org/), [nixos](https://nixos.org/), micropython@espressif MCUs, GIT, VSCodium
 
 - Other: 3DSMax, [blender](http://www.blender.org/), [GIMP](http://www.gimp.org/), [inkscape](http://inkscape.org/), ...
 - App-hostings: [docker](https://www.docker.com/) based, [heroku](https://www.heroku.com/),
-- C#, 1yr: XNA game dev feamework
 
 ## working experience
+- __10/2022 - now__
+  OpenEnergoman - energies and their cost management solution. Vue@3 with composition API, Vuetify, Pinia + Express.js, knex.js, Joi.js + Postgres + NodeRed as integration platform.
 - __10/2018 - 10/2022__
   Deputymayor of city of Tábor;
 - __10/2014 - 9/2018__

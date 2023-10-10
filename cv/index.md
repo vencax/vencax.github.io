@@ -30,52 +30,37 @@ description: Structured CV shows that I have experience as a JS fullstack develo
 - inline skating
 - politics & society
 
-## knowledge and skills
+## current skill/tool set
 
-- JS (full stack), excellent:
-  [express](http://expressjs.com/),
-  [react](https://facebook.github.io/react/),
-  [mobX](https://mobxjs.github.io/mobx/),
-  [webpack](https://webpack.github.io/),
-  [cofeescript](http://coffeescript.org/),  
-  [angular](http://angularjs.org/),  
-  [mithril](http://mithril.js.org/),
-  sass, less, leaflet, ES6, using [standard.js](https://standardjs.com/) ...
-- Windows(I would rather forget it :), Linux excellent: usage, administration, scripting
-- Python excellent: [django](https://www.djangoproject.com/), [flask](http://flask.pocoo.org/), networking libs, ...
-- Java, 4yrs: JSE, JEE: JSF (faceletes, visual JSF), servlets, jdbc, JPA, EJB
-- Servers: Apache, [Nginx](http://nginx.com/), [uWSGI](https://github.com/unbit/uwsgi), Tomcat, GlassFish, Jboss
-- C/C++, 2yrs: [STL](http://www.cplusplus.com/reference/stl/), [Boost](http://www.boost.org/), Linux API
-- C#, 1yr: XNA game feamework
-- CSS, (X)HTML(5) excellent, 7yrs
-- Database excellent: MySQL, PostgreSQL/PostGIS, Oracle PL/SQL, sqlite, LDAP
-- IDE: [atom.io](https://atom.io/), Eclipse, Netbeans, cloud9
-- SCM: SVN, GIT
+### JS (full stack) express.js, Vue@3; [mocha.js](https://mochajs.org/), [nixos](https://nixos.org/), micropython, GIT, VSCodium
+
 - Other: 3DSMax, [blender](http://www.blender.org/), [GIMP](http://www.gimp.org/), [inkscape](http://inkscape.org/), ...
-- App-hostings: [docker](https://www.docker.com/) based, [heroku](https://www.heroku.com/)
+- App-hostings: [docker](https://www.docker.com/) based, [heroku](https://www.heroku.com/),
+- C#, 1yr: XNA game dev feamework
 
 ## working experience
-
-- __10/2014 - now__
-  CDO@blueskymedia; node.js, react & mobx based web applications architecture & development
+- __10/2018 - 10/2022__
+  Deputymayor of city of Tábor;
+- __10/2014 - 9/2018__
+  CDO@blueskymedia; node.js, [react](https://facebook.github.io/react/) & [mobX](https://mobxjs.github.io/mobx/) based web applications architecture & development ([webpack](https://webpack.github.io/))
 - __1/2015 - now__
-  owner@Geo2K; development of GIS portal for historical data and ownership development visualisation (LEAFLET, node.js)
+  owner@Geo2K; development of GIS portal for historical data and ownership development visualisation (LEAFLET, node.js, PostgreSQL/PostGIS)
 - __11/2015 - 2/2016__
-  [supersimpleshop](http://www.supersimpleshop.eu/); own project of super simple and super fast ecomerce solution. Beat it! :)
+  [supersimpleshop](http://www.supersimpleshop.eu/); own project of super simple and super fast ecomerce solution. [express](http://expressjs.com/), [mithril](http://mithril.js.org/)
 - __11/2012 - 10/2013__
   Skype; python based automated testing development
 - __01/2012 - 08/2012__:
-  IT knowledge base portal skola21stoleti.cz; django, python
+  IT knowledge base portal skola21stoleti.cz; [django](https://www.djangoproject.com/), python
 - __05/2012 - 06/2012__:
-  vpn-admin, billing application for small business VPN group; django, python
+  vpn-admin, billing application for small business VPN group; [django](https://www.djangoproject.com/), python
 - __02/2012 - 05/2012__:
-  UDUIT, SQL based authentication/authorisation system - replacement for M$ active directory; django, python, nss-mysql, PAM, bash scripting.
+  EDUIT, SQL based authentication/authorisation system - replacement for M$ active directory; django, python, MySQL, nss-mysql, PAM, LDAP, bash scripting, [cofeescript](http://coffeescript.org/).
 - __02/2011 - 07/2011__: Acision Java developer. JBoss, Echo2, JCI, ant; Python
-- __01/2010 - 09/2010__: Acision verification engineer. Automation of testing (automation framework development).
+- __01/2010 - 09/2010__: Acision verification engineer. Automation of testing (automation framework development), Oracle PL/SQL, python.
 - __2009 - 2010__: realities advertising portal - J2EE (JSF, EJB, Servlet, facelets, Tomcat, GlassFish).
   Later reworked with much productive Python Django framework, deployed on Apache web-server.
 - __10/2007 - 07/2009__: [MedV4D](http://cgg.mff.cuni.cz/trac/medv4d) - medical data visualisation framework, MFFUK.
-  Programming (c++), debugging, documentation.
+  Programming (c++), debugging, documentation. [STL](http://www.cplusplus.com/reference/stl/), [Boost](http://www.boost.org/)
   3rd party libraries integration. Other team members cooperation and application architecture design sharing.
 - __07/2007 - 03/2008__: [Crazyanimals](http://www.crazyanimals.cz/) team programmer, designer.
   Game logic and menu programming (C# language, framework XNA), graphics creation and actually everything concerning game programming.
@@ -83,14 +68,14 @@ description: Structured CV shows that I have experience as a JS fullstack develo
 - __04/2007 - 08/2008__:
   Telefonica O2 CZ programmer. J2EE application development (J2EE, JSF, jdbc, tomcat).
   Programing and design of data base structure (Oracle PL/SQL) and query speed optimization.
-- __01/2007 - till now__: Network and server admin in primary school.
+- __01/2007 - 09/2016__: Network and server admin in primary school.
   Utilization of [EduIT](/pages/eduit), new functionality design end development.
 - __10/2006 – 02/2007__: School project – programmer. Development of process support into experimental operating system.
 - __10/2000 – 04/2007__: PC Assembling, support and diagnostics. Repairs.
 
 ## contacts
-- [https://github.com/vencax](https://github.com/vencax)
-- [http://www.linkedin.com/pub/vaclav-klecanda/9/686/979](http://www.linkedin.com/pub/vaclav-klecanda/9/686/979) /outdated/
-- [https://www.facebook.com/vaclav.klecanda](https://www.facebook.com/vaclav.klecanda)
+- [github.com/vencax](https://github.com/vencax)
+- [linkedin.com/in/vklecanda](https://www.linkedin.com/in/vklecanda/)
+- [facebook.com/vaclav.klecanda](https://www.facebook.com/vaclav.klecanda)
 
 Feel free to ask me for details.

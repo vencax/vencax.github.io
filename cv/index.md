@@ -39,9 +39,9 @@ description: Structured CV shows that I have experience as a JS fullstack develo
 
 ## working experience
 - __10/2022 - now__
-  OpenEnergoman - energies and their cost management solution. Vue@3 with composition API, Vuetify, Pinia + Express.js, knex.js, Joi.js + Postgres + NodeRed as integration platform.
+  OpenEnergoman - energies and their cost management solution. FE: Vue@3 with composition API, Vuetify, Pinia; BE: Express.js, knex.js, Joi.js; DB: Postgres; NodeRed as integration platform.
 - __10/2018 - 10/2022__
-  Deputymayor of city of Tábor;
+  Deputymayor of city of Tábor + free-time developer of modular system for city agendas (participative budget, surveys, task manager, city projects, ..). Vue@2, node.js with express.js, knex.js.
 - __10/2014 - 9/2018__
   CDO@blueskymedia; node.js, [react](https://facebook.github.io/react/) & [mobX](https://mobxjs.github.io/mobx/) based web applications architecture & development ([webpack](https://webpack.github.io/))
 - __1/2015 - now__
